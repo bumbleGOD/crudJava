@@ -19,7 +19,6 @@ public class ConsultorioDAO {
         }
     }
 
-    // Métodos CRUD para Consultorio
     public void crearConsultorio(Consultorio consultorio) {
         try {
             String query = "INSERT INTO Consultorios (ConNumero, ConNombre) VALUES (?, ?)";
